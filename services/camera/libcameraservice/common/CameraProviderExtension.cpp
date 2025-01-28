@@ -32,6 +32,6 @@ __attribute__((weak)) int32_t getTorchStrengthLevelExt() {
     return 0;
 }
 
-__attribute__((weak)) void setTorchStrengthLevelExt(__unused int32_t torchStrength) {
+__attribute__((weak)) void setTorchStrengthLevelExt(__unused int32_t torchStrength, __unused bool enabled) {
     // Nothing
 }
